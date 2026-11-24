@@ -1,0 +1,20 @@
+name: CI — ghost-jvm (Zero-Maven, Zero-Gradle Java 21 Verification)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify-ghost-jvm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      - name: Compile & Run GhostCas Against Live O(1) cas-v1
+        run: |
+          javac GhostCas.java
+          java GhostCas
