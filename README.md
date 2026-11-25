@@ -32,3 +32,13 @@ Run live with zero build tool:
 ```bash
 javac GhostCas.java && java GhostCas
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/ghost-jvm@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/ghost-jvm?from=repository://github.com/awesome-os/ghost-jvm@main"
+```
