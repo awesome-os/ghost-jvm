@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/ghost-jvm",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/ghost-jvm/ghost-jvm-v0.2.0.tar.zst",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "3e01cfd01f974c57ca0cddcec866b4aefa042c7c10965f6863ae21f6ca2f4996509d08790359d6202ecf4d6600d3c3fa1b974f56a62be15e99b9e21899cb39a3",
+      "size": 2921,
+      "executable": false,
+      "blob": "v11/files/3e/3e01cfd01f974c57ca0cddcec866b4aefa042c7c10965f6863ae21f6ca2f4996509d08790359d6202ecf4d6600d3c3fa1b974f56a62be15e99b9e21899cb39a3",
+      "url": "https://github.com/awesome-os/ghost-jvm/releases/download/v0.2.0/ghost-jvm-v0.2.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/ghost-jvm/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "7adbfc83a86138fc52c696c1a1f804ead325ec08636ec720ffeb9ffb82ff0d7d2851d0da7a9fbbf6a0a8dc9c1aa5f5f35df325c8975d38f156aa39b74fecc6b6",
+      "size": 91,
+      "executable": false,
+      "blob": "v11/files/7a/7adbfc83a86138fc52c696c1a1f804ead325ec08636ec720ffeb9ffb82ff0d7d2851d0da7a9fbbf6a0a8dc9c1aa5f5f35df325c8975d38f156aa39b74fecc6b6",
+      "url": "https://github.com/awesome-os/ghost-jvm/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/ghost-jvm/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "00c36646df1b35765e23ad30fa0002c9ae9be8f785d450e01ea4866235fde493d942c5ea7ec39581a1151b498b838c912d63b48783d37f7856be5f53f3ad3ed5",
+      "size": 155,
+      "executable": false,
+      "blob": "v11/files/00/00c36646df1b35765e23ad30fa0002c9ae9be8f785d450e01ea4866235fde493d942c5ea7ec39581a1151b498b838c912d63b48783d37f7856be5f53f3ad3ed5",
+      "url": "https://github.com/awesome-os/ghost-jvm/releases/download/v0.2.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
